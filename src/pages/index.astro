@@ -27,7 +27,7 @@ const [posts, rankedPosts, tags, numberOfPages] = await Promise.all([
 ])
 ---
 
-<Layout>
+<Layout title="mitsu blog" description="光岡がいろんなことをメモするブログ">
   <div slot="main" class={styles.main}>
     {
       posts.length === 0 ? (
